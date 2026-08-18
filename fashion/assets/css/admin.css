@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+}
+.admin-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.admin-container h1 {
+    margin-bottom: 1rem;
+    color: #1a1a2e;
+}
+.admin-container nav a {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background: #1a1a2e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.admin-table th, .admin-table td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+.admin-table th {
+    background: #1a1a2e;
+    color: #fff;
+}
+.admin-form {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+.admin-form input, .admin-form textarea, .admin-form select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.admin-form button {
+    padding: 0.5rem 1.5rem;
+    background: #e94560;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
